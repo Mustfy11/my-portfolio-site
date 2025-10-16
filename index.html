@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Net Cooling</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="ust">
+      <div class="row">
+        <div class="col-md1">
+          <i class="fa fa-clock"></i>
+          <span>Mon - Sun: 08:00 - 19:00</span>
+        </div>
+        <div class="col-md2">
+          <i class="fa fa-phone"></i>
+          <a href="tel:05442018733"><span>+1 (XXX) XXX-XXXX</span></a>
+        </div>
+        <div class="col-md3">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.x.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="logo" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+        <h2>Net Cooling</h2>
+      </div>
+      <div id="nav-links" class="nav-links" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+        <a href="index.html">Home</a>
+        <a href="#services">Our Services</a>
+        <a href="#about">About Us</a>
+        <button onclick="window.location.href='Form/contact.html'">Contact Us</button>
+      </div>
+      <div id="hamburger" class="hamburger" aria-label="Open/close menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="hero-backg-color">
+    <section class="hero" id="hero">
+      <div class="container" data-aos="fade-down" data-aos-duration="1000">
+        <h1>Net Cooling</h1>
+        <p>Reliable Service for Air Conditioning and Home Appliances</p>
+      </div>
+
+      <div class="container-img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+        <div class="img-top">
+          <img src="img/vestel.png" alt="Vestel Logo" />
+          <img src="img/bosh.png" alt="Bosh Logo">
+          <img src="img/siemens.png" alt="Siemens Logo" />
+          <img src="img/profilo.png" alt="Profilo Logo" />
+        </div>
+        <div class="img-bottom">
+          <img src="img/arçelik.png" alt="Arçelik Logo" />
+          <img src="img/beko.png" alt="Beko Logo" />
+          <img src="img/altus.png" alt="Altus Logo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="hero-write" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+      <h1>Always by Your Side</h1>
+      <p>Our company operates in a wide range of areas, from household appliances to commercial cooling systems.
+        With years of experience, we stand out in the industry by combining technical expertise with a
+        customer-focused approach. We prioritize high quality and reliability in every project.
+        By closely following technological developments, we produce customized solutions for every need and
+        continuously improve our services to provide even more.</p>
+    </section>
+  </div>
+
+  <section class="happy-customers">
+    <div class="counter">
+      <h2>Our Happy Customers</h2>
+      <div class="count" data-target="300">0</div>
+    </div>
+
+    <div class="testimonial-slider">
+      <div class="slide active">
+        <img src="img/pp.jpeg" alt="Customer Photo" class="avatar">
+        <div class="testimonial-content">
+          <h3>alice T.</h3>
+          <div class="stars">★★★★★</div>
+          <p>"Our air conditioner works perfectly now. Fast and reliable service, thank you!"</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="img/pp.jpeg" alt="Customer Photo" class="avatar">
+        <div class="testimonial-content">
+          <h3>George K.</h3>
+          <div class="stars">★★★★☆</div>
+          <p>"Great value for money. They arrived a bit late, but the job was done well."</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img src="img/pp.jpeg" alt="Customer Photo" class="avatar">
+        <div class="testimonial-content">
+          <h3>Robert D.</h3>
+          <div class="stars">★★★★★</div>
+          <p>"My washing machine works perfectly again. Friendly team and quick solution."</p>
+        </div>
+      </div>
+
+      <button class="slider-arrow left-arrow" aria-label="Previous review">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="slider-arrow right-arrow" aria-label="Next review">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h1>Our Services</h1>
+
+    <div class="service-container">
+
+      <div class="service-items-wrapper">
+        <div class="service-item aos-item">
+          <i class="fas fa-snowflake icon"></i>
+          <h2>Air Conditioner Service</h2>
+          <p>Professional maintenance, repair, and installation services for all air conditioners.</p>
+        </div>
+        <div class="service-item aos-item">
+          <i class="fas fa-tools icon"></i>
+          <h2>Home Appliance Repair</h2>
+          <p>Reliable repair solutions for your refrigerator, washing machine, and other home appliances.</p>
+        </div>
+        <div class="service-item aos-item">
+          <i class="fas fa-industry icon"></i>
+          <h2>Cooling Systems</h2>
+          <p>Installation and maintenance of industrial and commercial cooling systems.</p>
+        </div>
+        <div class="service-item aos-item">
+          <i class="fas fa-wrench icon"></i>
+          <h2>Fault Repair</h2>
+          <p>We provide quick and guaranteed solutions for all types of malfunctions.</p>
+        </div>
+        <div class="service-item aos-item">
+          <i class="fas fa-tools icon"></i>
+          <h2>Installation Services</h2>
+          <p>Fast and smooth installation service for your devices and systems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-us" id="about" data-aos="fade-up" data-aos-duration="1000">
+    <h1>About Us</h1>
+    <div class="p-cont">
+      <p>Net Cooling provides high-quality service in the air conditioning and home appliance industry with years of experience.</p>
+      <p>We prioritize customer satisfaction and offer fast, effective solutions.</p>
+      <p>By keeping up with technology, we aim to deliver the best service experience possible.</p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

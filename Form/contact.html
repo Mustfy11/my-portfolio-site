@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Application</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <header>
+    <div class="ust">
+      <div class="row">
+        <div class="col-md1">
+          <i class="fa fa-clock"></i>
+          <span>Mon - Sun: 08:00 - 19:00</span>
+        </div>
+        <div class="col-md2">
+          <i class="fa fa-phone"></i>
+          <a href="tel:+1XXXXXXXXXX"><span>+1 (XXX) XXX-XXXX</span></a>
+        </div>
+        <div class="col-md3">
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.x.com/"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <div class="mlogo" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+        <h2>Net Cooling</h2>
+      </div>
+      <div id="nav-links" class="nav-links" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#services">Our Services</a>
+        <a href="../index.html#about">About Us</a>
+        <button onclick="window.location.href='../index.html'">Contact Us</button>
+      </div>
+      <div id="hamburger" class="hamburger" aria-label="Open/close menu" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="title">
+    <h1>Net Cooling</h1>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <div class="breadcrumb">
+      <a href="#">Home</a> &gt; <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="item phone">
+      <div class="logo">
+        <i class="fas fa-phone"></i>
+      </div>
+      <div class="write">
+        <h3>Phone</h3>
+        <p>+1 (XXX) XXX-XXXX</p>
+      </div>
+    </div>
+
+    <div class="item email">
+      <div class="logo">
+        <i class="fas fa-envelope"></i>
+      </div>
+      <div class="write">
+        <h3>Email</h3>
+        <p>netcoolingxxxx@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="item whatsapp">
+      <div class="logo">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+      <div class="write">
+        <h3>WhatsApp</h3>
+        <p>+1 (XXX) XXX-XXXX</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-wrapper">
+    <section id="form">
+      <h2>Contact Us</h2>
+      <form id="myForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="" placeholder="Enter your name" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="" placeholder="+1 (XXX) XXX-XXXX" required>
+
+        <label for="service">Select Service</label>
+        <select id="service" name="" required>
+          <option value="">Choose</option>
+          <option value="Air Conditioner Service">Air Conditioner Service</option>
+          <option value="Home Appliance Repair">Home Appliance Repair</option>
+        </select>
+
+        <label for="message">Describe Your Issue...</label>
+        <textarea id="message" name="" rows="4" placeholder="Write the details..." required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <div id="successMsg" style="display:none; color:green; margin-top:15px; font-weight:bold;">
+        ✅ Your message has been sent successfully. Thank you!
+      </div>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
